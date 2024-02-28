@@ -23,29 +23,6 @@ window = tk.Tk()
 window.title("Face Recognition Attendance System")
 window.geometry("800x600")
 window.configure(background='#E1EFFF')
-#path = "profile.jpg"
-
-#Creates a Tkinter-compatible photo image, which can be used everywhere Tkinter expects an image object.
-#img = ImageTk.PhotoImage(Image.open(path))
-
-#The Label widget is a standard Tkinter widget used to display a text or image on the screen.
-#panel = tk.Label(window, image = img)
-
-
-#panel.pack(side = "left", fill = "y", expand = "no")
-
-#cv_img = cv2.imread("img541.jpg")
-#x, y, no_channels = cv_img.shape
-#canvas = tk.Canvas(window, width = x, height =y)
-#canvas.pack(side="left")
-#photo = PIL.ImageTk.PhotoImage(image = PIL.Image.fromarray(cv_img)) 
-# Add a PhotoImage to the Canvas
-#canvas.create_image(0, 0, image=photo, anchor=tk.NW)
-
-#msg = Message(window, text='Hello, world!')
-
-# Font is a tuple of (font_family, size_in_points, style_modifier_string)
-
 
 
 lbl_title = tk.Label(window, text="Face Recognition Attendance System", bg="#0080FF", fg="white",
