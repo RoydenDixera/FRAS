@@ -1,8 +1,21 @@
 ## Run `setup.py` before `train.py` to install dependencies 
 
+
+### `setup.py` installs the following dependencies:
+- opencv-python
+- Pillow
+- numpy
+- pandas
+- opencv-contrib-python
 ```shell=
 python setup.py
 ```
+#### The installation of the above mentioned dependencies can be verifed using `pip`
+```shell=
+pip list
+```
+
+### `train.py` runs the main python code
 ```shell=
 python train.py
 ```
