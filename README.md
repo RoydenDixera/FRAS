@@ -1,5 +1,13 @@
-run setup.py before train.py to install dependencies 
-publish issues if there is any problem
+## Run `setup.py` before `train.py` to install dependencies 
+
+```shell=
+python setup.py
+```
+```shell=
+python train.py
+```
+
+## _Publish issues if there is any problem_
 
 
   
