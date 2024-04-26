@@ -261,8 +261,6 @@ def TrackImages():
     save_interval = 60  # Save attendance every 60 seconds
     last_save_time = time.time()
 
-
-
     while True:
         ret, im = cam.read()
         gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
@@ -295,6 +293,8 @@ def TrackImages():
 
         attendance = attendance.drop_duplicates(subset=['Id'], keep='first')
 
+        cv2.resize(im, (window.winfo_screenwidth(), window.winfo_screenheight()))
+        #cv2.resizeWindow('im', window.winfo_screenwidth(), window.winfo_screenheight())
         cv2.imshow('im', im)
 
         current_time = time.time()
