@@ -1,5 +1,5 @@
-Just run the trian.py file
+run setup.py before train.py to install dependencies 
+publish issues if there is any problem
 
-pakages required:
-  pip install opencv-contrib-python
+
   
