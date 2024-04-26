@@ -293,8 +293,8 @@ def TrackImages():
 
         attendance = attendance.drop_duplicates(subset=['Id'], keep='first')
 
-        cv2.resize(im, (window.winfo_screenwidth(), window.winfo_screenheight()))
-        #cv2.resizeWindow('im', window.winfo_screenwidth(), window.winfo_screenheight())
+        cv2.namedWindow('im', cv2.WINDOW_NORMAL)
+        cv2.setWindowProperty('im', window.winfo_screenwidth(), window.winfo_screenheight())
         cv2.imshow('im', im)
 
         current_time = time.time()
