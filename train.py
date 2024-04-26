@@ -52,8 +52,8 @@ lbl_notification.pack(pady=10)
 message = tk.Label(window, text="", font=('times', 16), bg="#E1EFFF", fg="red")
 message.pack()
 
-lbl_attendance = tk.Label(window, text="Attendance:", font=('times', 16), bg="#E1EFFF")
-lbl_attendance.pack(pady=10)
+# lbl_attendance = tk.Label(window, text="Attendance:", font=('times', 16), bg="#E1EFFF")
+# lbl_attendance.pack(pady=10)
 
 message2 = tk.Label(window, text="", font=('times', 16), bg="#E1EFFF", fg="green")
 message2.pack()
@@ -316,8 +316,6 @@ def TrackImages():
 
     cam.release()
     cv2.destroyAllWindows()
-    res = attendance
-    message2.configure(text=res)
 
 
 frame_buttons = tk.Frame(window, bg="#E1EFFF")
