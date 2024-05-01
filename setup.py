@@ -54,7 +54,7 @@ def main():
             print("Quitting!")
             break
         else:
-            print("Invalid command. Please try again or check for typo.")
+            print("Invalid command. Please try again or check for typing mistake.")
 
 if __name__ == "__main__":
     main()
