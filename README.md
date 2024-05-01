@@ -7,6 +7,8 @@
 - numpy
 - pandas
 - opencv-contrib-python
+- tk (tkinter)
+
 ```shell=
 python setup.py
 ```
